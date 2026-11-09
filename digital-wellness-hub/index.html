@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A student-friendly digital wellness resource hub for choosing tools that fit your habits, device, and budget.">
+  <title>Good Signal — Digital Wellness Resource Hub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="site-shell">
+    <div class="top-note">A calm place to make better tech choices <a href="/about">How this hub works →</a></div>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="/" aria-label="Good Signal home">
+          <span class="brand-mark" aria-hidden="true">◒</span>
+          <span class="brand-copy">Good Signal<small>Digital wellness hub</small></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation">Menu</button>
+        <nav class="main-nav" id="main-navigation" aria-label="Primary navigation">
+          <a data-page="resources" href="/explore">Explore</a>
+          <a data-page="recommendations" href="/find">Find your tool</a>
+          <a data-page="guides" href="/guides">Setup guides</a>
+          <a data-page="safety" href="/safety">Digital safety</a>
+          <a data-page="about" href="/about">About</a>
+          <a class="nav-cta" data-page="feedback" href="/feedback">Share feedback</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">For students, by design</span>
+            <h1>Make tech work <span>with you.</span></h1>
+            <p class="lede">A thoughtful starting point for screen time, focus, notifications, sleep, and privacy. Compare the trade-offs, choose what fits, and take one practical next step.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="/find">Find your starting point <span aria-hidden="true">→</span></a>
+              <a class="btn btn-secondary" href="/explore">Browse all resources</a>
+            </div>
+          </div>
+          <div class="hero-orbit" aria-label="Illustration showing a calm digital routine">
+            <div class="orbit-card main">
+              <div class="card-top"><div><span class="section-label">Today</span><strong style="display:block;margin-top:.25rem">A calmer rhythm</strong></div><span class="mini-icon">✦</span></div>
+              <span class="section-label">Intentional screen time</span>
+              <div class="progress" aria-label="68 percent complete"><span></span></div>
+              <div style="display:flex;justify-content:space-between;font-size:.72rem;color:var(--ink-soft)"><span>Focus block</span><strong style="color:var(--green)">34 min</strong></div>
+            </div>
+            <div class="orbit-card small">
+              <span class="section-label">Small signal</span>
+              <div class="orbit-list" style="margin-top:.8rem"><div><i></i><span>Pause before you scroll</span></div><div><i style="background:var(--green)"></i><span>Silence what can wait</span></div><div><i style="background:var(--lavender)"></i><span>Protect your bedtime</span></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-tight">
+        <div class="container">
+          <div class="section-header"><div><span class="eyebrow">Start with the real problem</span><h2 style="margin-top:.9rem">What would feel better?</h2></div><p>Good digital wellness is personal. Pick the friction you notice most and we’ll point you toward a useful next step.</p></div>
+          <div class="problem-grid">
+            <a class="problem-card bg-mint" href="/find?problem=screen-time"><span class="section-label">01</span><div><h3>I use my phone too much</h3><p>See patterns and set a kinder limit.</p></div><span class="arrow" aria-hidden="true">↗</span></a>
+            <a class="problem-card bg-lime" href="/find?problem=distraction"><span class="section-label">02</span><div><h3>I get distracted while studying</h3><p>Protect one focused block at a time.</p></div><span class="arrow" aria-hidden="true">↗</span></a>
+            <a class="problem-card bg-blue" href="/find?problem=notifications"><span class="section-label">03</span><div><h3>My notifications never stop</h3><p>Choose what deserves your attention.</p></div><span class="arrow" aria-hidden="true">↗</span></a>
+            <a class="problem-card bg-amber" href="/find?problem=sleep"><span class="section-label">04</span><div><h3>I want better evenings</h3><p>Make a predictable wind-down routine.</p></div><span class="arrow" aria-hidden="true">↗</span></a>
+            <a class="problem-card bg-lavender" href="/find?problem=privacy"><span class="section-label">05</span><div><h3>I’m uneasy about tracking</h3><p>Build safer habits around accounts and data.</p></div><span class="arrow" aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section accent-section">
+        <div class="container">
+          <div class="section-header"><div><span class="eyebrow">A short list, not a sales pitch</span><h2 style="margin-top:.9rem">Featured starting points</h2></div><p>Every resource is compared using the same questions: purpose, platform, price, privacy, accessibility, and limits.</p></div>
+          <div class="resource-grid" data-featured-resources></div>
+          <div style="margin-top:1.6rem"><a class="btn btn-secondary" href="/explore">See the full directory →</a></div>
+        </div>
+      </section>
+
+      <section class="section dark-section">
+        <div class="container">
+          <div class="section-header"><div><span class="eyebrow">How to use the hub</span><h2 style="margin-top:.9rem">A small decision, made clearer.</h2></div><p>There’s no universal “best” tool. The right fit depends on the problem, the device in your hand, and the boundaries you can actually keep.</p></div>
+          <div class="feature-grid">
+            <article class="feature-card"><span class="feature-number">01 / NOTICE</span><h3>Name the friction.</h3><p>Start with the moment that keeps getting in the way: a buzzing phone, a tab spiral, or an account you keep reusing.</p></article>
+            <article class="feature-card"><span class="feature-number">02 / COMPARE</span><h3>Check the trade-offs.</h3><p>Look at the platform, price, permissions, accessibility, and limitations before you install or enable anything.</p></article>
+            <article class="feature-card"><span class="feature-number">03 / TRY</span><h3>Make one change.</h3><p>Use a guide, test the setting, and keep what helps. Tools support habits; they do not replace your judgment.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header"><div><span class="eyebrow">Practical, not perfect</span><h2 style="margin-top:.9rem">Three ways in.</h2></div><p>Explore at your own pace - or start with a short guide that turns a good intention into a setting you can actually use.</p></div>
+          <div class="guide-grid" data-guides></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div><a class="brand" href="/"><span class="brand-mark" aria-hidden="true">◒</span><span class="brand-copy">Good Signal<small>Digital wellness hub</small></span></a><p class="footer-copy">A student-friendly guide for choosing digital wellness resources with more clarity and less noise.</p></div>
+        <div><p class="footer-title">Explore</p><div class="footer-links"><a href="/explore">Resource directory</a><a href="/find">Find your tool</a><a href="/guides">Setup guides</a></div></div>
+        <div><p class="footer-title">Keep learning</p><div class="footer-links"><a href="/safety">Digital safety</a><a href="/about">Method + sources</a><a href="/feedback">Share feedback</a></div></div>
+      </div>
+      <div class="container footer-bottom"><span>Built as a project-ready static site.</span><span>Research snapshot checked 09 Nov 2026 · Verify again before publishing.</span></div>
+    </footer>
+  </div>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
