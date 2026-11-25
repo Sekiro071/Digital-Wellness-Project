@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta name="mobile-route" content="/habits">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f7f8fa"><meta name="description" content="Your private daily digital wellness dashboard.">
+  <script src="/js/theme.js"></script>
+  <title>Today — Good Signal</title>
+  <link rel="stylesheet" href="/css/dashboard.css">
+  <link rel="stylesheet" href="/css/mobile.css">
+</head>
+<body class="wellness" data-page="dashboard">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="dash-header"><a class="dash-brand" href="/" aria-label="Good Signal, Today"><span class="brand-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 18v-5m7 5V8m7 10V3"/></svg></span><span>good signal</span></a><div class="header-actions"><span class="local-note"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>On-device</span><button class="theme-toggle" type="button" aria-label="Switch theme"></button></div></header>
+  <main id="main-content" class="dash-main">
+    <section class="welcome" data-today-view>
+      <p class="date-label" data-date-label></p><h1>Today</h1>
+      
+    </section>
+    <section class="card usage-card" data-today-view aria-labelledby="usage-title">
+      <div class="card-heading"><h2 id="usage-title">Screen time</h2><span class="live-state" data-usage-state>Not connected</span></div>
+      <div class="usage-summary"><strong data-total-usage>—</strong><span data-usage-caption>Connect Android usage access to see your real activity.</span></div>
+      <div class="connect-row"><button class="button button-dark" type="button" data-connect-usage>Connect screen time</button><button class="text-button" type="button" data-manage-usage hidden>Manage access</button></div>
+    <div class="quick-actions" data-today-view aria-label="Make room for yourself"><a href="/focus"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6"/></svg><span><strong>Focus session</strong><small>Choose a task and start</small></span><span aria-hidden="true">→</span></a><a href="/habits"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6M20 12v7H4V5h10"/></svg><span><strong>Daily habits</strong><small data-habit-preview>Your daily check-in</small></span><span aria-hidden="true">→</span></a></div>
+      <div class="permission-help" data-permission-help hidden><h3>Android blocked access?</h3><p>If Android warns that this permission could put personal or financial information at risk, review the app before continuing. For an APK you trust, Android provides this recovery:</p><ol><li>Open <strong>App info</strong> for Good Signal.</li><li>Tap <strong>More (the three-dot menu) → Allow restricted settings</strong>, if shown. Confirm with your device lock.</li><li>Return to <strong>Usage access → Good Signal</strong> and allow access.</li></ol><div class="button-row"><button class="button button-quiet" type="button" data-open-app-info>Open app info</button><button class="text-button" type="button" data-recheck-usage>Check access again</button></div><p class="fine-print">Some phones use different menu names. School or work device policies may prevent access. Focus, Habits, and Guides work without this permission.</p><a href="https://support.google.com/android/answer/12623953" class="text-button">Read Android’s official explanation</a></div><div class="week-block"><div class="week-heading"><h3>Your week</h3><span>Last 7 days</span></div><div data-week-content class="week-content"><p class="empty-inline">No usage history yet. Connect access to see your week.</p></div><p class="selected-day" data-selected-day role="status" aria-live="polite"></p></div>
+      <div class="apps-block"><div class="week-heading"><h3>Most used today</h3><span data-apps-summary></span></div><div data-apps-content class="empty-inline">Your app list will appear when Android shares today’s usage.</div></div>
+      <details class="goal-line"><summary>Daily screen-time intention <span data-goal-label></span></summary><form data-goal-form><label for="screen-goal">Daily hours</label><div><input id="screen-goal" type="number" min="0.5" max="18" step="0.5" inputmode="decimal" placeholder="Hours" aria-describedby="goal-hint" data-goal-input><button class="text-button" type="submit">Save goal</button></div></form><p class="goal-hint" id="goal-hint">Optional, saved on this device.</p><p class="status-message" data-goal-message role="status" aria-live="polite"></p></details>
+      <div class="goal-progress" data-goal-progress hidden></div>
+      <details class="usage-disclosure"><summary>About Android usage access</summary><p>Optional. Android shares app names and time spent, not messages, passwords, or what you view inside apps. Estimates stay on this phone and may differ from Digital Wellbeing. Review or revoke access in Android Settings → Special app access → Usage access.</p></details>
+      <p class="status-message" data-usage-message role="status" aria-live="polite"></p>
+    </section>
+    <details class="card sleep-card" data-today-view><summary class="sleep-summary"><span><strong>Wind-down reminder</strong><small data-reminder-preview>Choose a quieter end to your day</small></span></summary><div class="sleep-expanded" aria-labelledby="sleep-title">
+      <div class="card-heading"><div><h2 id="sleep-title">Evening reminder</h2><p class="card-copy">A daily nudge to wind down.</p></div><svg class="moon-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M22.7 20.8A11.4 11.4 0 0 1 11.2 9.3a11.8 11.8 0 1 0 11.5 11.5Z"/><path d="m23.5 5 .7 2.2 2.3.7-2.3.7-.7 2.3-.7-2.3-2.3-.7 2.3-.7z"/></svg></div>
+      <div class="sleep-controls"><label class="time-label" for="sleep-time">Reminder time</label><input id="sleep-time" type="time" value="22:00" data-sleep-time><label class="switch-label"><input type="checkbox" data-sleep-enabled><span class="switch-ui" aria-hidden="true"></span><span>Daily reminder</span></label></div>
+      <div class="button-row"><button class="button button-green" type="button" data-save-sleep>Save reminder</button><button class="button button-quiet" type="button" data-request-notifications>Enable notifications</button></div>
+      <p class="fine-print">Android schedules reminders approximately. Enable notifications to receive them.</p>
+      <details class="notification-details"><summary>Notification settings &amp; test</summary><button class="button button-quiet" type="button" data-test-notification>Send test</button><div class="notification-row"><span data-notification-state>Notification permission hasn’t been checked.</span><button class="text-button" type="button" data-notification-settings>Notification settings</button></div>
+      </details><p class="status-message" data-sleep-message role="status" aria-live="polite"></p>
+    </div></details>
+    <section class="habits-view" data-habits-view hidden>
+      <div class="habits-intro"><p class="date-label" data-habit-date-heading></p><h1>Habits</h1><p class="welcome-copy">Your daily checklist. Small steps, at your pace.</p></div>
+      <section class="card habit-card" aria-labelledby="habits-title"><div class="card-heading"><div><p class="habit-date" data-habit-date></p><h2 id="habits-title">Today’s check-in</h2></div><span class="habit-count" data-habit-count></span></div>
+        <div class="habit-completion" data-habit-completion hidden></div><form class="habit-form" data-habit-form><label for="habit-title">Add a daily habit</label><div class="habit-input-row"><input id="habit-title" name="title" type="text" maxlength="56" minlength="2" placeholder="e.g. Phone away while studying" autocomplete="off" required><button class="button button-dark" type="submit">Add</button></div><p class="field-note">2–56 characters. Keep it kind and specific.</p><p class="status-message" data-habit-status role="status" aria-live="polite"></p></form>
+        <ul class="habit-list" data-habit-list aria-label="Daily habits"></ul><p class="empty-habits" data-habit-empty hidden>No habits yet. Add one small practice to begin.</p>
+        <div class="habit-history"><div class="week-heading"><h3>Last 7 days</h3><span>Completed check-ins</span></div><div data-habit-week class="habit-week"></div><p class="selected-day" data-habit-day-detail aria-live="polite"></p></div>
+        <p class="fine-print">Days follow your device’s local calendar. Each habit’s streak counts consecutive days checked off.</p>
+      </section>
+      <section class="suggestions" aria-labelledby="suggestion-title"><h2 id="suggestion-title">Try one small change</h2><div class="suggestion-grid"><article><h3>Pause before opening</h3><p>Take one breath before your next scroll.</p><button type="button" data-suggestion="Take one breath before opening an app">Add this habit</button></article><article><h3>Make space for focus</h3><p>Put your phone aside for one study block.</p><button type="button" data-suggestion="Put my phone aside for one study block">Add this habit</button></article><article><h3>Close the day softly</h3><p>Give yourself a few quiet minutes before bed.</p><button type="button" data-suggestion="Take a few quiet minutes before bed">Add this habit</button></article></div></section>
+    </section>
+  </main>
+  <footer class="dash-footer"><span>Private by design. Yours to change.</span><a href="/guides">Setup guides</a><a href="/about">How this works</a></footer>
+  <script src="/js/dashboard.js"></script>
+  <script src="/js/mobile.js"></script>
+</body>
+</html>

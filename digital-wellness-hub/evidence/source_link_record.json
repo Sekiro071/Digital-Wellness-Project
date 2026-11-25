@@ -1,0 +1,233 @@
+{
+  "checked_at_utc": "2026-11-17T17:34:14+00:00",
+  "scope": "HTTP(S) hrefs in public HTML pages, URL-valued source/install/store/privacy/pricing fields in data/resources.json, and credited image source-page URLs in assets/guides/SOURCES.md",
+  "limitation": "Availability only; a successful response does not verify claims, price, compatibility, or privacy practices.",
+  "total": 23,
+  "ok": 23,
+  "issues": 0,
+  "links": [
+    {
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/",
+      "referenced_by": [
+        "data/resources.json:privacy-badger:url"
+      ],
+      "status": 200,
+      "final_url": "https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/",
+      "result": "ok"
+    },
+    {
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/",
+      "referenced_by": [
+        "data/resources.json:ublock-origin:url"
+      ],
+      "status": 200,
+      "final_url": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/",
+      "result": "ok"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/forest-focus-for-productivity/id866450515",
+      "referenced_by": [
+        "data/resources.json:forest:url"
+      ],
+      "status": 200,
+      "final_url": "https://apps.apple.com/us/app/forest-focus-for-productivity/id866450515",
+      "result": "ok"
+    },
+    {
+      "url": "https://bitwarden.com/",
+      "referenced_by": [
+        "data/resources.json:bitwarden:officialUrl",
+        "pages/about.html"
+      ],
+      "status": 200,
+      "final_url": "https://bitwarden.com/",
+      "result": "ok"
+    },
+    {
+      "url": "https://bitwarden.com/download/",
+      "referenced_by": [
+        "data/resources.json:bitwarden:url"
+      ],
+      "status": 200,
+      "final_url": "https://bitwarden.com/download/",
+      "result": "ok"
+    },
+    {
+      "url": "https://bitwarden.com/help/password-manager-plans/",
+      "referenced_by": [
+        "data/resources.json:bitwarden:url"
+      ],
+      "status": 200,
+      "final_url": "https://bitwarden.com/help/password-manager-plans/",
+      "result": "ok"
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp",
+      "referenced_by": [
+        "data/resources.json:privacy-badger:url"
+      ],
+      "status": 200,
+      "final_url": "https://chromewebstore.google.com/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp",
+      "result": "ok"
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/stayfocusd-%E2%80%93-website-bloc/laankejkbhbdhmipfmgcngdelahlfoji",
+      "referenced_by": [
+        "guides/stayfocusd.html"
+      ],
+      "status": 200,
+      "final_url": "https://chromewebstore.google.com/detail/stayfocusd-%E2%80%93-website-bloc/laankejkbhbdhmipfmgcngdelahlfoji",
+      "result": "ok"
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji",
+      "referenced_by": [
+        "data/resources.json:stayfocusd:url"
+      ],
+      "status": 200,
+      "final_url": "https://chromewebstore.google.com/detail/stayfocusd-%E2%80%93-website-bloc/laankejkbhbdhmipfmgcngdelahlfoji",
+      "result": "ok"
+    },
+    {
+      "url": "https://getcoldturkey.com/",
+      "referenced_by": [
+        "data/resources.json:cold-turkey:officialUrl"
+      ],
+      "status": 200,
+      "final_url": "https://getcoldturkey.com/",
+      "result": "ok"
+    },
+    {
+      "url": "https://getcoldturkey.com/pricing/",
+      "referenced_by": [
+        "data/resources.json:cold-turkey:url"
+      ],
+      "status": 200,
+      "final_url": "https://getcoldturkey.com/pricing/",
+      "result": "ok"
+    },
+    {
+      "url": "https://getcoldturkey.com/pricing/?buy=true",
+      "referenced_by": [
+        "pages/about.html"
+      ],
+      "status": 200,
+      "final_url": "https://getcoldturkey.com/pricing/?buy=true",
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/gorhill/uBlock",
+      "referenced_by": [
+        "data/resources.json:ublock-origin:officialUrl",
+        "pages/about.html"
+      ],
+      "status": 200,
+      "final_url": "https://github.com/gorhill/uBlock",
+      "result": "ok"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=cc.forestapp",
+      "referenced_by": [
+        "data/resources.json:forest:url"
+      ],
+      "status": 200,
+      "final_url": "https://play.google.com/store/apps/details?id=cc.forestapp",
+      "result": "ok"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.wellbeing&hl=en",
+      "referenced_by": [
+        "assets/guides/SOURCES.md",
+        "guides/android-wellbeing.html"
+      ],
+      "status": 200,
+      "final_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.wellbeing&hl=en",
+      "result": "ok"
+    },
+    {
+      "url": "https://privacybadger.org/",
+      "referenced_by": [
+        "data/resources.json:privacy-badger:officialUrl",
+        "pages/about.html"
+      ],
+      "status": 200,
+      "final_url": "https://privacybadger.org/",
+      "result": "ok"
+    },
+    {
+      "url": "https://stayfocusd.com/",
+      "referenced_by": [
+        "assets/guides/SOURCES.md",
+        "guides/stayfocusd.html"
+      ],
+      "status": 200,
+      "final_url": "https://www.stayfocusd.com/",
+      "result": "ok"
+    },
+    {
+      "url": "https://support.apple.com/en-us/105112",
+      "referenced_by": [
+        "assets/guides/SOURCES.md",
+        "data/resources.json:apple-focus:officialUrl",
+        "guides/focus-mode.html",
+        "pages/about.html"
+      ],
+      "status": 200,
+      "final_url": "https://support.apple.com/en-us/105112",
+      "result": "ok"
+    },
+    {
+      "url": "https://support.apple.com/en-us/108806",
+      "referenced_by": [
+        "data/resources.json:screen-time:officialUrl",
+        "pages/about.html"
+      ],
+      "status": 200,
+      "final_url": "https://support.apple.com/en-us/108806",
+      "result": "ok"
+    },
+    {
+      "url": "https://support.google.com/android/answer/9069335?hl=en",
+      "referenced_by": [
+        "data/resources.json:android-dnd:officialUrl",
+        "guides/focus-mode.html",
+        "pages/about.html"
+      ],
+      "status": 200,
+      "final_url": "https://support.google.com/android/answer/9069335?hl=en",
+      "result": "ok"
+    },
+    {
+      "url": "https://support.google.com/android/answer/9346420?hl=en",
+      "referenced_by": [
+        "data/resources.json:digital-wellbeing:officialUrl",
+        "guides/android-wellbeing.html",
+        "pages/about.html"
+      ],
+      "status": 200,
+      "final_url": "https://support.google.com/android/answer/9346420?hl=en",
+      "result": "ok"
+    },
+    {
+      "url": "https://www.forestapp.cc/",
+      "referenced_by": [
+        "data/resources.json:forest:officialUrl",
+        "pages/about.html"
+      ],
+      "status": 200,
+      "final_url": "https://www.forestapp.cc/",
+      "result": "ok"
+    },
+    {
+      "url": "https://www.stayfocusd.com/",
+      "referenced_by": [
+        "data/resources.json:stayfocusd:officialUrl",
+        "guides/stayfocusd.html",
+        "pages/about.html"
+      ],
+      "status": 200,
+      "final_url": "https://www.stayfocusd.com/",
+      "result": "ok"
+    }
+  ]
+}

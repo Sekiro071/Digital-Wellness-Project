@@ -1,0 +1,4 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.goodsignal.test">
+  <application android:label="Good Signal test harness" />
+  <instrumentation android:name=".BridgeHarness" android:targetPackage="com.goodsignal.app" android:label="Good Signal bridge test" />
+</manifest>

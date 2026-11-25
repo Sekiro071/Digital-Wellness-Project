@@ -1,0 +1,10 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.goodsignal.app'
+    compileSdk 36
+    defaultConfig { applicationId 'com.goodsignal.app'; minSdk 24; targetSdk 35; versionCode 6; versionName '2.0' }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
+
+
+

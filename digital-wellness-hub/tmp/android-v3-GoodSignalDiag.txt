@@ -1,0 +1,12 @@
+--------- beginning of main
+11-17 23:56:15.362  4432  4462 I GoodSignalDiag: intercept url=https://appassets.androidplatform.net/ scheme=https host=appassets.androidplatform.net path=/ method=GET
+11-17 23:56:15.390  4432  4462 I GoodSignalDiag: opening asset www/index.html
+11-17 23:56:15.390  4432  4462 E GoodSignalDiag: asset failed /index.html
+11-17 23:56:15.390  4432  4462 E GoodSignalDiag: java.io.FileNotFoundException: www/index.html
+11-17 23:56:15.390  4432  4462 E GoodSignalDiag: 	at android.content.res.AssetManager.nativeOpenAsset(Native Method)
+11-17 23:56:15.390  4432  4462 E GoodSignalDiag: 	at android.content.res.AssetManager.open(AssetManager.java:985)
+11-17 23:56:15.390  4432  4462 E GoodSignalDiag: 	at android.content.res.AssetManager.open(AssetManager.java:962)
+11-17 23:56:15.390  4432  4462 E GoodSignalDiag: 	at com.goodsignal.app.MainActivity$2.shouldInterceptRequest(MainActivity.java:60)
+11-17 23:56:15.390  4432  4462 E GoodSignalDiag: 	at WV.q6.a(chromium-TrichromeWebViewGoogle6432.apk-stable-636771938:86)
+11-17 23:56:15.390  4432  4462 E GoodSignalDiag: 	at org.chromium.android_webview.AwContentsBackgroundThreadClient.shouldInterceptRequestFromNative(chromium-TrichromeWebViewGoogle6432.apk-stable-636771938:15)
+11-17 23:56:15.622  4432  4432 E GoodSignalDiag: HTTP error https://appassets.androidplatform.net/ 404

@@ -1,3 +1,7 @@
-data/feedback.json
 __pycache__/
+*.pyc
 .venv/
+node_modules/
+data/feedback.sqlite3*
+data/feedback.json
+.pytest_cache/

@@ -1,0 +1,36 @@
+{
+  "origin": "https://appassets.androidplatform.net",
+  "entry": "/",
+  "routeFiles": {
+    "/": "index.html",
+    "/explore": "explore/index.html",
+    "/find": "find/index.html",
+    "/focus": "focus/index.html",
+    "/habits": "habits/index.html",
+    "/guides": "guides/index.html",
+    "/safety": "safety/index.html",
+    "/about": "about/index.html",
+    "/feedback": "feedback/index.html"
+  },
+  "guides": {
+    "/guide/android-wellbeing": "guide/android-wellbeing/index.html",
+    "/guide/stayfocusd": "guide/stayfocusd/index.html",
+    "/guide/focus-mode": "guide/focus-mode/index.html"
+  },
+  "resources": {
+    "/resource/digital-wellbeing": "resource/digital-wellbeing/index.html",
+    "/resource/screen-time": "resource/screen-time/index.html",
+    "/resource/forest": "resource/forest/index.html",
+    "/resource/stayfocusd": "resource/stayfocusd/index.html",
+    "/resource/cold-turkey": "resource/cold-turkey/index.html",
+    "/resource/android-dnd": "resource/android-dnd/index.html",
+    "/resource/apple-focus": "resource/apple-focus/index.html",
+    "/resource/ublock-origin": "resource/ublock-origin/index.html",
+    "/resource/privacy-badger": "resource/privacy-badger/index.html",
+    "/resource/bitwarden": "resource/bitwarden/index.html"
+  },
+  "nativeActions": {
+    "/android-settings": "Intercept route and open Android Digital Wellbeing settings. Fallback is /guide/android-wellbeing/."
+  },
+  "staticAssets": "Resolve exact /<path> assets to www/<path>; keep root-absolute URLs unchanged."
+}

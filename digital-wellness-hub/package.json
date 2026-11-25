@@ -1,0 +1,11 @@
+{
+  "name": "good-signal-checks",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/frontend.test.cjs"
+  },
+  "description": "Development checks only. The app runs on FastAPI and does not require Node.",
+  "devDependencies": {
+    "jsdom": "^29.1.1"
+  }
+}

@@ -1,0 +1,1234 @@
+[
+  {
+    "route": "/",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": "rgb(248, 251, 252)"
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": "rgb(19, 46, 62)"
+    }
+  },
+  {
+    "route": "/explore",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/focus",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(19, 46, 62)",
+      "study": null
+    }
+  },
+  {
+    "route": "/find",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/feedback",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/guides",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": null,
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": null,
+      "study": null
+    }
+  },
+  {
+    "route": "/safety",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": null,
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": null,
+      "study": null
+    }
+  },
+  {
+    "route": "/about",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/guide/stayfocusd",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/guide/android-wellbeing",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/guide/focus-mode",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/resource/digital-wellbeing",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/resource/screen-time",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/resource/forest",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/resource/stayfocusd",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/resource/cold-turkey",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/resource/android-dnd",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/resource/apple-focus",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/resource/ublock-origin",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/resource/privacy-badger",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/resource/bitwarden",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/missing-theme-route",
+    "width": 1440,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": null,
+      "footer": null,
+      "card": null,
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": null,
+      "footer": null,
+      "card": null,
+      "study": null
+    }
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": "rgb(248, 251, 252)"
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": "rgb(19, 46, 62)"
+    }
+  },
+  {
+    "route": "/explore",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/focus",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(19, 46, 62)",
+      "study": null
+    }
+  },
+  {
+    "route": "/find",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/feedback",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/guides",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": null,
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": null,
+      "study": null
+    }
+  },
+  {
+    "route": "/safety",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": null,
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": null,
+      "study": null
+    }
+  },
+  {
+    "route": "/about",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/guide/stayfocusd",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/guide/android-wellbeing",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/guide/focus-mode",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/resource/digital-wellbeing",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/resource/screen-time",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/resource/forest",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/resource/stayfocusd",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/resource/cold-turkey",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/resource/android-dnd",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/resource/apple-focus",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/resource/ublock-origin",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/resource/privacy-badger",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/resource/bitwarden",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": "rgb(220, 233, 239)",
+      "footer": "rgb(217, 230, 237)",
+      "card": "rgb(248, 251, 252)",
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": "rgb(16, 31, 43)",
+      "footer": "rgb(8, 23, 34)",
+      "card": "rgb(16, 37, 50)",
+      "study": null
+    }
+  },
+  {
+    "route": "/missing-theme-route",
+    "width": 390,
+    "light": {
+      "theme": "light",
+      "scheme": "light",
+      "count": 1,
+      "label": "Switch to dark mode",
+      "overflow": false,
+      "body": "rgb(234, 240, 244)",
+      "hero": null,
+      "footer": null,
+      "card": null,
+      "study": null
+    },
+    "dark": {
+      "theme": "dark",
+      "scheme": "dark",
+      "count": 1,
+      "label": "Switch to light mode",
+      "overflow": false,
+      "body": "rgb(11, 27, 39)",
+      "hero": null,
+      "footer": null,
+      "card": null,
+      "study": null
+    }
+  }
+]

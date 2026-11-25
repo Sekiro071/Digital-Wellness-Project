@@ -1,0 +1,81 @@
+.study-preview { border: 1px solid var(--control-line); border-radius: 12px; overflow: hidden; background: var(--panel-surface); }
+.study-preview-top { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1rem 1.5rem; border-bottom: 1px solid var(--control-line); color: var(--action-ink); font: 500 .72rem 'IBM Plex Mono', monospace; }
+.study-dot { width: 10px; height: 10px; background: var(--action-ink); border-radius: 50%; }
+.study-preview h2 { padding: 2rem 1.5rem 0; font-size: clamp(2rem, 3.5vw, 3.1rem); }
+.study-preview-steps { margin: 1.6rem 1.5rem 1.5rem; padding-left: 1.4rem; }
+.study-preview-steps li { padding: .65rem 0 .65rem .5rem; color: var(--action-ink); }
+.study-preview-steps strong { display: block; color: var(--ink); font-size: .95rem; }
+.study-preview-steps span { color: var(--soft); font-size: .85rem; }
+.study-preview-link { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin: 0 1.5rem; padding: .8rem 1rem; border-radius: 6px; color: var(--night); background: var(--signal); text-decoration: none; font-weight: 700; }
+.study-preview-link:hover { background: #edff9d; }
+.study-preview > p { padding: .8rem 1.5rem 1rem; margin: 0; color: var(--soft); font-size: .78rem; }
+.history-confirmation { display: flex; align-items: center; flex-wrap: wrap; gap: .75rem; padding: 1rem; color: var(--notice-ink); background: var(--notice-surface); }
+.history-confirmation button { min-height: 44px; padding: .5rem .75rem; border: 1px solid var(--notice-line); border-radius: 5px; color: var(--notice-ink); background: transparent; }
+
+/* Focus stays visible and calm at every viewport size. */
+.study-preview { border-radius: 12px; }
+.study-preview h2 { color: var(--ink); padding-top: 1.5rem; font-size: clamp(1.8rem,3vw,2.65rem); line-height: 1.06; }
+.study-preview-steps { margin-block: 1rem 1.5rem; }
+.study-preview-steps li { padding-block: .5rem; }
+.study-preview-steps strong { font-size: 1rem; }
+.study-preview-steps span { display: block; margin-top: .2rem; font-size: .875rem; }
+.study-preview-link { min-height: 48px; transition: transform .18s, background-color .18s; }
+.study-preview-link:hover { transform: translateY(-2px); }
+.study-preview > p { font-size: .8125rem; line-height: 1.65; }
+body[data-page="focus"] .page-hero { padding-block: 2rem; }
+body[data-page="focus"] .page-hero h1 { font-size: clamp(2.5rem,4.5vw,4rem); margin-top: 1rem; }
+body[data-page="focus"] .focus-section { padding-block: 2rem; }
+.focus-layout { grid-template-columns: minmax(0,1.15fr) minmax(0,.85fr); align-items: stretch; gap: 1.25rem; }
+.focus-side { min-width: 0; }
+.focus-timer-card { min-width: 0; min-height: 520px; }
+.focus-mode-pill { align-self: start; white-space: nowrap; }
+.focus-setup-card, .focus-stats-card { padding: 1.5rem; }
+.focus-setup-card .field-label { margin-top: 1.2rem; }
+.focus-privacy { margin-top: 1rem; font-size: .8125rem; line-height: 1.7; }
+.focus-status, .timer-task { font-size: .875rem; line-height: 1.6; }
+.timer-task { max-width: 35ch; overflow-wrap: anywhere; }
+.timer-core { width: min(100%,430px); min-width: 0; }
+.timer-display { font-size: clamp(4rem,8vw,6.5rem); letter-spacing: -.035em; }
+.timer-controls .btn { min-width: 110px; }
+.duration-chip { min-height: 44px; }
+.distraction-button { min-height: 44px; margin-top: .5rem; font-size: .875rem; }
+.distraction-count { color: var(--soft); font-size: .75rem; }
+.session-row { grid-template-columns: auto minmax(0,1fr) auto; }
+.session-row span { font-size: .8125rem; }
+.history-confirmation { color: var(--notice-ink); background: var(--notice-surface); font-size: .9375rem; }
+
+@media (max-width: 980px) {
+  .focus-layout { grid-template-columns: minmax(0,1fr); }
+  .focus-side { grid-template-columns: minmax(0,1.2fr) minmax(0,.8fr); align-items: start; }
+}
+@media (max-width: 720px) {
+  .study-preview h2 { font-size: 2rem; }
+  .focus-side { grid-template-columns: minmax(0,1fr); }
+  .focus-timer-card { min-height: 470px; padding: 1.25rem; }
+  .timer-ring { min-height: 230px; }
+  .timer-display { font-size: clamp(3.75rem,18vw,6rem); }
+  .timer-controls { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .timer-controls .btn { min-width: 0; }
+  .focus-card-head { flex-wrap: wrap; }
+  .session-row { grid-template-columns: auto minmax(0,1fr); }
+  .history-confirmation button { flex: 1; }
+}
+
+.study-ready { display: inline-flex; align-items: center; gap: .45rem; font: 400 .75rem 'Public Sans',sans-serif; color: var(--soft); }
+.study-ready .study-dot { width: 6px; height: 6px; }
+.study-block-clock { display: grid; place-items: center; padding: 2.25rem 1rem 1.75rem; }
+.study-clock-label { color: var(--soft); font-size: .875rem; }
+.study-block-clock > strong { color: var(--ink); font: 600 clamp(4.2rem,7vw,6.2rem)/1.2 'IBM Plex Mono',monospace; letter-spacing: -.04em; font-variant-numeric: tabular-nums; }
+.study-block-clock > strong > span { color: var(--action-ink); }
+.study-clock-note { margin-top: .5rem; color: var(--soft); font-size: .875rem; }
+.study-block-plan { display: grid; grid-template-columns: 5fr 1.6fr; gap: .5rem; margin: 0 1.5rem 1.75rem; }
+.study-block-plan > div { display: grid; grid-template-columns: auto 1fr; gap: .25rem .5rem; align-items: baseline; }
+.study-plan-bar { grid-column: 1/-1; height: 5px; margin-bottom: .6rem; background: var(--action-ink); }
+.study-block-plan > div:last-child .study-plan-bar { background: var(--rail); }
+.study-block-plan strong { color: var(--ink); font-size: .875rem; }
+.study-block-plan div > span:last-child { color: var(--soft); font-size: .75rem; }
+@media (max-width: 980px) and (min-width: 721px) { .study-preview-top { padding-inline: 1rem; flex-wrap: wrap; gap: .5rem; } .study-block-plan { grid-template-columns: 3fr 1.5fr; } .study-block-plan > div { grid-template-columns: 1fr; } }
+@media (max-width: 390px) { .study-preview-top { padding-inline: 1rem; flex-wrap: wrap; gap: .5rem; } .study-block-plan { margin-inline: 1rem; } .study-block-plan > div { grid-template-columns: 1fr; } }
+
+
+.history-confirmation button:hover { background: var(--control-hover); color: var(--ink); }

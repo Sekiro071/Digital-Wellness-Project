@@ -1,11 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-type="software">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="A student-friendly digital wellness resource hub for choosing tools that fit your habits, device, and budget.">
   <title>Good Signal — Digital Wellness Resource Hub</title>
-  <link rel="stylesheet" href="css/style.css">
+  <script src="/js/theme.js"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/study.css">
 </head>
 <body data-page="home">
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -21,7 +23,7 @@
         <nav class="main-nav" id="main-navigation" aria-label="Primary navigation">
           <a data-page="resources" href="/explore">Explore</a>
           <a data-page="recommendations" href="/find">Find your tool</a>
-          <a data-page="guides" href="/guides">Setup guides</a>
+          <a data-page="focus" href="/focus">Focus session</a><a data-page="guides" href="/guides">Setup guides</a>
           <a data-page="safety" href="/safety">Digital safety</a>
           <a data-page="about" href="/about">About</a>
           <a class="nav-cta" data-page="feedback" href="/feedback">Share feedback</a>
@@ -30,29 +32,23 @@
     </header>
 
     <main id="main-content">
-      <section class="hero">
+      <section class="hero" data-enter>
         <div class="container hero-grid">
           <div class="hero-copy">
             <span class="eyebrow">For students, by design</span>
-            <h1>Make tech work <span>with you.</span></h1>
-            <p class="lede">A thoughtful starting point for screen time, focus, notifications, sleep, and privacy. Compare the trade-offs, choose what fits, and take one practical next step.</p>
+            <h1>A little less noise.<br><span>Room to study.</span></h1>
+            <p class="lede">A focus timer, practical setup guides, and tools for the habits getting in your way. Built for student days. No account needed.</p>
             <div class="hero-actions">
-              <a class="btn btn-primary" href="/find">Find your starting point <span aria-hidden="true">→</span></a>
-              <a class="btn btn-secondary" href="/explore">Browse all resources</a>
+              <a class="btn btn-secondary" href="/find">Find a tool for your day <span aria-hidden="true">→</span></a>
             </div>
           </div>
-          <div class="hero-orbit" aria-label="Illustration showing a calm digital routine">
-            <div class="orbit-card main">
-              <div class="card-top"><div><span class="section-label">Today</span><strong style="display:block;margin-top:.25rem">A calmer rhythm</strong></div><span class="mini-icon">✦</span></div>
-              <span class="section-label">Intentional screen time</span>
-              <div class="progress" aria-label="68 percent complete"><span></span></div>
-              <div style="display:flex;justify-content:space-between;font-size:.72rem;color:var(--ink-soft)"><span>Focus block</span><strong style="color:var(--green)">34 min</strong></div>
-            </div>
-            <div class="orbit-card small">
-              <span class="section-label">Small signal</span>
-              <div class="orbit-list" style="margin-top:.8rem"><div><i></i><span>Pause before you scroll</span></div><div><i style="background:var(--green)"></i><span>Silence what can wait</span></div><div><i style="background:var(--lavender)"></i><span>Protect your bedtime</span></div></div>
-            </div>
-          </div>
+          <aside class="study-preview study-block" aria-label="A 25-minute focus block followed by a 5-minute break">
+            <div class="study-preview-top"><span>YOUR STUDY BLOCK</span><span class="study-ready"><span class="study-dot" aria-hidden="true"></span>Ready when you are</span></div>
+            <div class="study-block-clock"><span class="study-clock-label">Focus time</span><strong>25<span>:</span>00</strong><span class="study-clock-note">Choose one task. Silence distractions.</span></div>
+            <div class="study-block-plan" aria-label="Session plan"><div><span class="study-plan-bar"></span><strong>25 min</strong><span>Focus</span></div><div><span class="study-plan-bar"></span><strong>5 min</strong><span>Take a break</span></div></div>
+            <a href="/focus" class="study-preview-link">Set up my focus block <span aria-hidden="true">→</span></a>
+            <p>Adjust the duration and name your task before you start.</p>
+          </aside>
         </div>
       </section>
 
@@ -77,20 +73,9 @@
         </div>
       </section>
 
-      <section class="section dark-section">
-        <div class="container">
-          <div class="section-header"><div><span class="eyebrow">How to use the hub</span><h2 style="margin-top:.9rem">A small decision, made clearer.</h2></div><p>There’s no universal “best” tool. The right fit depends on the problem, the device in your hand, and the boundaries you can actually keep.</p></div>
-          <div class="feature-grid">
-            <article class="feature-card"><span class="feature-number">01 / NOTICE</span><h3>Name the friction.</h3><p>Start with the moment that keeps getting in the way: a buzzing phone, a tab spiral, or an account you keep reusing.</p></article>
-            <article class="feature-card"><span class="feature-number">02 / COMPARE</span><h3>Check the trade-offs.</h3><p>Look at the platform, price, permissions, accessibility, and limitations before you install or enable anything.</p></article>
-            <article class="feature-card"><span class="feature-number">03 / TRY</span><h3>Make one change.</h3><p>Use a guide, test the setting, and keep what helps. Tools support habits; they do not replace your judgment.</p></article>
-          </div>
-        </div>
-      </section>
-
       <section class="section">
         <div class="container">
-          <div class="section-header"><div><span class="eyebrow">Practical, not perfect</span><h2 style="margin-top:.9rem">Three ways in.</h2></div><p>Explore at your own pace - or start with a short guide that turns a good intention into a setting you can actually use.</p></div>
+          <div class="section-header"><div><span class="eyebrow">Practical, not perfect</span><h2 style="margin-top:.9rem">Set it up. Make it yours.</h2></div><p>Follow a short setup guide for app limits, distracting websites, or a quieter study mode.</p></div>
           <div class="guide-grid" data-guides></div>
         </div>
       </section>
@@ -99,13 +84,13 @@
     <footer class="site-footer">
       <div class="container footer-grid">
         <div><a class="brand" href="/"><span class="brand-mark" aria-hidden="true">◒</span><span class="brand-copy">Good Signal<small>Digital wellness hub</small></span></a><p class="footer-copy">A student-friendly guide for choosing digital wellness resources with more clarity and less noise.</p></div>
-        <div><p class="footer-title">Explore</p><div class="footer-links"><a href="/explore">Resource directory</a><a href="/find">Find your tool</a><a href="/guides">Setup guides</a></div></div>
+        <div><p class="footer-title">Explore</p><div class="footer-links"><a href="/explore">Resource directory</a><a href="/find">Find your tool</a><a href="/focus">Focus session</a><a href="/guides">Setup guides</a></div></div>
         <div><p class="footer-title">Keep learning</p><div class="footer-links"><a href="/safety">Digital safety</a><a href="/about">Method + sources</a><a href="/feedback">Share feedback</a></div></div>
       </div>
-      <div class="container footer-bottom"><span>Built as a project-ready static site.</span><span>Research snapshot checked 09 Nov 2026 · Verify again before publishing.</span></div>
+      <div class="container footer-bottom"><span>Good Signal · Digital wellness for students.</span><span>Research snapshot checked 17 Nov 2026 · Verify again before publishing.</span></div>
     </footer>
   </div>
-  <script src="js/data.js"></script>
-  <script src="js/app.js"></script>
+  <script src="/js/data.js"></script>
+  <script src="/js/app.js"></script>
 </body>
 </html>
